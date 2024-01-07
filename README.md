@@ -1,6 +1,12 @@
 # Documentation
 
-This project utilizes [YOLOv5](https://github.com/ultralytics/yolov5), a state-of-the-art real-time object detection system, for controlling a car in a game using hand gestures. The YOLOv5 model is trained on custom dataset for controlling the car movements. Below are the steps to install, run, and use the system:
+This project utilizes [YOLOv5](https://github.com/ultralytics/yolov5), a state-of-the-art real-time object detection system, for controlling a car in a game using hand gestures. The YOLOv5 model is trained on custom dataset for controlling the car movements. 
+ 
+# WORKING
+
+The YOLOv5 system detects hand gestures in real-time. Once a gesture is recognized, the system simulates pressing the relevant key on the keyboard to control the car's movement in the game. For example, if the YOLOv5 system detects a "mvefrd" gesture, it simulates pressing the "W" key to move the car forward.  
+
+Below are the steps to install, run, and use the system: 
 
 ## Install
 
@@ -36,10 +42,10 @@ This project utilizes [YOLOv5](https://github.com/ultralytics/yolov5), a state-o
 The system is designed to recognize four gestures that are mapped to control the car movements in the game:
 ![Gesture Controls](https://raw.githubusercontent.com/bilal77511/yolov5-hand-gesture-car-game-control/master/RESULTS/GESTURES.jpg)
 
-- **1:** Press the "A" key. Steer the car to the left.
-- **2:** Press the "W" key. Move the car forward.
-- **3:** Press the "S" key. Move the car backward.
-- **4:** Press the "D" key. Steer the car to the right.
+- **1:** Steer the car to the left.
+- **2:** Move the car forward.
+- **3:** Move the car backward.
+- **4:** Steer the car to the right.  
   You can watch the [demo](https://youtu.be/nolA7gAj25A) to understand the controls better.
 
 ## YOLOv5 Training Details
