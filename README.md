@@ -48,9 +48,22 @@ The system is designed to recognize four gestures that are mapped to control the
 - **4:** Steer the car to the right.  
   You can watch the [demo](https://youtu.be/nolA7gAj25A) to understand the controls better.
 
+## Issues and Bugs
+### Issue: Dual-Hand Control
+
+One limitation encountered during the development was the difficulty in implementing dual-hand control for the car. The initial goal was to enable users to use both hands to control different aspects of the car's movements. However, due to technical constraints or specific challenges, achieving this functionality proved challenging.
+
+### Lattency
+
+Another challenge faced during the development of the project was latency. The system experienced delays in detecting and responding to hand gestures, impacting the real-time responsiveness expected in a gaming environment.
+
+### Bugs: Control Stuck and Continuous Movement
+
+A notable bug observed during testing was the occasional occurrence of control getting stuck, leading to continuous movement of the car even when the user's hand gestures indicated a stop or a change in direction. This unexpected behavior needs further investigation and debugging to ensure a smoother and more reliable gaming experience.
+
 ## YOLOv5 Training Details
 
-The YOLOv5 model used in this project is trained on custom data to ensure accurate detection of hand gestures. The [training results](https://github.com/bilal77511/yolov5-hand-gesture-car-game-control/tree/e82314435a1e12c03a5fa2f5631b5c62c4aa4285/RESULTS) indicate good accuracy, and the model is capable of real-time inference for controlling the car in the game.
+The YOLOv5 model used in this project is trained on custom dataset to ensure accurate detection of hand gestures. The [training results](https://github.com/bilal77511/yolov5-hand-gesture-car-game-control/tree/e82314435a1e12c03a5fa2f5631b5c62c4aa4285/RESULTS) indicate good accuracy, and the model is capable of real-time inference for controlling the car in the game.
 
 For more detailed information and customization options, refer to the [YOLOv5 Documentation](https://docs.ultralytics.com/yolov5/).
 
