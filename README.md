@@ -53,7 +53,7 @@ The system is designed to recognize four gestures that are mapped to control the
 
 One limitation encountered during the development was the difficulty in implementing dual-hand control for the car. The initial goal was to enable users to use both hands to control different aspects of the car's movements. However, due to technical constraints or specific challenges, achieving this functionality proved challenging.
 
-### Lattency
+### Issue: Latency
 
 Another challenge faced during the development of the project was latency. The system experienced delays in detecting and responding to hand gestures, impacting the real-time responsiveness expected in a gaming environment.
 
