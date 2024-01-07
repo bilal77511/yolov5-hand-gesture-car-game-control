@@ -44,6 +44,6 @@ The system is designed to recognize four gestures that are mapped to control the
 
 The YOLOv5 model used in this project is trained on custom data to ensure accurate detection of hand gestures. The training results indicate good accuracy, and the model is capable of real-time inference for controlling the car in the game.
 
-For more detailed information and customization options, refer to the [YOLOv5 Documentation](https://github.com/ultralytics/yolov5).
+For more detailed information and customization options, refer to the [YOLOv5 Documentation](https://docs.ultralytics.com/yolov5/).
 
 Feel free to explore and adapt the project based on your preferences and specific game requirements.
