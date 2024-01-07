@@ -1,6 +1,6 @@
 # Documentation
 
-This project utilizes YOLOv5, a state-of-the-art real-time object detection system, for controlling a car in a game using hand gestures. The YOLOv5 model is trained on custom data, ensuring accurate and reliable detection of hand gestures for controlling the car movements. Below are the steps to install, run, and use the system:
+This project utilizes [YOLOv5](https://github.com/ultralytics/yolov5), a state-of-the-art real-time object detection system, for controlling a car in a game using hand gestures. The YOLOv5 model is trained on custom dataset for controlling the car movements. Below are the steps to install, run, and use the system:
 
 ## Install
 
