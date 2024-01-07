@@ -24,12 +24,12 @@ This project utilizes YOLOv5, a state-of-the-art real-time object detection syst
 4. Run the detection script with the desired configuration:
 
     ```bash
-    python detectnew.py --weights yolov5s_results100/weights/best.pt --img 640 --conf 0.25 --source 0  # running
+    python detectnew.py --weights RESULTS/weights/best.pt --img 640 --conf 0.25 --source 0  # running
     ```
 
     This command will use the trained YOLOv5 model to detect hand gestures in real-time.
 
-5. Now, open the car game that you want to play. The hand gestures detected by YOLOv5 will be translated into corresponding game controls, allowing you to interact with the game using your hand movements.
+6. Now, open the car game that you want to play. The hand gestures detected by YOLOv5 will be translated into corresponding game controls, allowing you to interact with the game using your hand movements.
 
 ## Gesture Controls
 
